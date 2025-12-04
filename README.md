@@ -39,3 +39,75 @@ This assignment enhances the original game by adding three important gameplay :
 *Lives system
 *Difficulty increase
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+🎮 Assignment-3 : Make your own game
+
+# Rock, Paper & Scissors — C Program
+
+This project is a simple console-based **Rock, Paper, Scissors** game written in the C programming language. The user selects an option, and the computer randomly generates its move. The program then determines the winner based on the classic game rules.
+----
+
+## 🧾 How It Works
+
+1. The player selects a move (1 = Rock, 2 = Paper, 3 = Scissors).
+2. The computer generates its choice using:
+
+   ```c
+   computerchoice = rand() % 3 + 1;
+   ```
+3. The program compares both choices and prints:
+
+   * **It's a tie**
+   * **You win**
+   * **Computer wins**
+
+---
+
+## ▶️ How to Run
+
+### Using GCC:
+
+```sh
+gcc "rock ,paper and scissor.c" -o rps
+./rps
+```
+
+### Using Turbo C / CodeBlocks:
+
+* Create a new project
+* Add the `.c` file
+* Compile & Run
+
+---
+
+## 📂 File Structure
+
+```
+rock ,paper and scissor.c   → Main game source code
+```
+
+---
+
+## 📘 Game Rules
+
+* **Rock** beats Scissors
+* **Paper** beats Rock
+* **Scissors** beats Paper
+* Same choices → **Tie**
+
+---
+
+## 📄 Program Flow
+
+1. Display menu
+2. Take input
+3. Generate computer move
+4. Display choices
+5. Compare results
+6. Print winner
+
+---
+
+
+Enjoy the game! 🙂
